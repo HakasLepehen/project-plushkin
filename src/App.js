@@ -1,8 +1,11 @@
-import './App.css';
+import './App.scss';
+import './fonts/Noto Sans.woff2';
+import Navbar from "./components/Navbar";
 
 function App() {
     return (
-        <div>
+        <div className='wrapper'>
+            <Navbar/>
         </div>
     );
 }
