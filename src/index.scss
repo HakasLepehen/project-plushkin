@@ -27,14 +27,59 @@
   -webkit-font-feature-settings: 'liga';
   -webkit-font-smoothing: antialiased;
 }
-
-html {
-  font-family: Noto Sans, sans-serif;
-}
+//
+//html {
+//  font-family: Noto Sans, sans-serif;
+//}
 
 body {
   margin: 0;
+}
 
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  color: inherit;
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+body {
+  background-color: #f8f8f8;
+  height: 200vh;
+}
+
+h1 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 110%;
+  margin: 0;
+}
+
+h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 130%;
+  margin: 0;
+}
+
+h3,
+h4 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  line-height: 130%;
+  margin: 0;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
 }
 
 

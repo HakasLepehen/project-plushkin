@@ -1,7 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.scss';
-import './fonts/Noto Sans.woff2';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
